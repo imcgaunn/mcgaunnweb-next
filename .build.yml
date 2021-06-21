@@ -1,0 +1,17 @@
+image: "archlinux"
+packages:
+  - "rsync"
+  - "docker"
+  - "doctl"
+secrets:
+  - "b4509624-006e-4b5f-8de9-15f64095e1a7"
+  - "b5cf99f1-6d57-4162-a931-ed57f5203c2e"
+sources:
+  - "git@git.sr.ht/~imcg/mcgaunn-com-next"
+tasks:
+  - setup: |
+    . ~/mcgaunn-com-next/ci/setup-docker.sh
+    . ~/mcgaunn-com-next/ci/setup-ci.sh
+  - build: |
+    cd mcgaunn-com-next
+    docker build mcgaunnweb .

@@ -1,0 +1,3 @@
+- get digitalocean api token into sourcehut
+secrets store.
+- finish .build.yml configuration
