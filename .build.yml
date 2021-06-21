@@ -9,8 +9,8 @@ sources:
   - "git@git.sr.ht/~imcg/mcgaunn-com-next"
 tasks:
   - setup: |
-    . ~/mcgaunn-com-next/ci/setup-docker.sh
-    . ~/mcgaunn-com-next/ci/setup-ci.sh
+      . ~/mcgaunn-com-next/ci/setup-docker.sh
+      . ~/mcgaunn-com-next/ci/setup-ci.sh
   - build: |
-    cd mcgaunn-com-next
-    docker build mcgaunnweb .
+      cd mcgaunn-com-next
+      docker build mcgaunnweb .
