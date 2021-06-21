@@ -2,7 +2,6 @@ image: "archlinux"
 packages:
   - "rsync"
   - "docker"
-  - "doctl"
 secrets:
   - "b4509624-006e-4b5f-8de9-15f64095e1a7"
   - "b5cf99f1-6d57-4162-a931-ed57f5203c2e"
