@@ -13,6 +13,8 @@ tasks:
       . ~/mcgaunn-com-next/ci/setup-docker.sh
       . ~/mcgaunn-com-next/ci/setup-ci.sh
   - build: |
+      . ~/mcgaunn-com-next/ci/setup-docker.sh
+      . ~/mcgaunn-com-next/ci/setup-ci.sh
       cd mcgaunn-com-next
       echo "$(whoami)"
       sudo docker build -t mcgaunnweb .
