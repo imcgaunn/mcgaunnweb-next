@@ -1,7 +1,7 @@
 # What Is This?
 
 This is the source code for my latest personal website in the latest javascript framework. I thought next.js would be fun to learn,
-and i've got a domain name just sitting there, waiting for its calling: this website is that calling.
+and i've got a domain name [just sitting there](https://mcgaunn.com), waiting for its calling: this website is that calling.
 
 Most of the following text is just the sample text from the create-next-app project template.
 
