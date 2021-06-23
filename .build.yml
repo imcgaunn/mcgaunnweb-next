@@ -14,4 +14,4 @@ tasks:
       . ~/mcgaunn-com-next/ci/setup-ci.sh
   - build: |
       cd mcgaunn-com-next
-      docker build -t mcgaunnweb .
+      sudo docker build -t mcgaunnweb .
