@@ -2,7 +2,6 @@
 
 # Enable bash strict mode
 set -euo pipefail
-IFS=$'\n\t'
 
 sudo mount -t tmpfs -o size=4G /dev/null /dev/shm
 sleep 2
